@@ -13,9 +13,9 @@ export type ContactForm = {
 };
 
 const NTFY_TOPIC = Deno.env.get("NTFY_TOPIC");
-if (NTFY_TOPIC === undefined) {
-  throw Error("NTFY_TOPIC environment variable must be set");
-}
+// if (NTFY_TOPIC === undefined) {
+//   throw Error("NTFY_TOPIC environment variable must be set");
+// }
 
 export function handle(searchParams: URLSearchParams) {
   if (searchParams.has("email") && searchParams.has("message")) {
