@@ -1,7 +1,8 @@
 repo_name: TajAlasfiyaa/www
 report_id: 196cb61794acca0caf869360c0459c39
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-10T09:25:30+00:00'
+timestamp: '2024-01-05T08:26:21+00:00'
 requested_by: guigui64
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/TajAlasfiyaa/www
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/TajAlasfiyaa/www
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -34,4 +37,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/TajAlasfiyaa/www
   detection_source: Repo Metadata
